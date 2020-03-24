@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Archive';
+    font-weight: normal;
+    font-style: normal;
+    src: url(shrift3/Archive.ttf);
+  }
+  @font-face {
+    font-family: 'Art-Nouveau-1900';
+    font-weight: normal;
+    font-style: normal;
+    src: url(shrift3/Art-Nouveau-1900.ttf);
+  }
+  h1{
+    text-align:center;
+      font-size: 100px;
+      font-family: 'Archive';
+      color:gray;
+
+  }
+  .form-group {
+    text-align:center;
+    font-size: 50px;
+    font-family: 'Art-Nouveau-1900';
+    
+  }
+  .form-group label{
+
+display: block;
+  }
+
+  .tach{
+    text-align:center;
+  }
+  .tach2{
+    text-align:center;
+    font-size: 50px;
+    font-family: 'Art-Nouveau-1900';
+    background-color:whitesmoke ;
+    width: 200px;
+  }
+  .ta{
+      width: 150px;
+      height:50px;
+  }
+  .massage {
+    
+    float: right;
+    width: 33%;
+    }
