@@ -1,8 +1,27 @@
 
+@font-face {
+  font-family: 'Archive';
+  font-weight: normal;
+  font-style: normal;
+  src: url(shrift4/Archive.ttf);
+}
+@font-face {
+  font-family: 'Art-Nouveau-1900';
+  font-weight: normal;
+  font-style: normal;
+  src: url(shrift4/Art-Nouveau-1900.ttf);
+}
+
+
+
+
+
+
 
 h2{
 text-align: center;
 }
+
 
  form {
     width: 300px;
@@ -13,6 +32,7 @@ text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 10px #cccccc;
     background-image: ;
+    font-family: 'Archive';
     }
     
     label {
@@ -62,13 +82,13 @@ text-align: center;
     }
 
     .page-footer{
-      background-image: url(https://img5.goodfon.ru/original/2500x1400/9/54/fon-seryi-figury.jpg) ;
-      color:whitesmoke;
+    color:black;
       font-size: 20px;
-      text-align: center;
-      margin-top: 200px;
-      padding-bottom: 100px;
-      padding-left: 40px;
-      padding-right: 40px;
+     text-align: center;
+      margin-top: 100px;
+     
+      font-family: 'Archive';
+     border-top: black double 4px;
+     border-bottom: black  16px;
     } 
    
