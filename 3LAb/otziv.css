@@ -1,0 +1,88 @@
+@font-face {
+  font-family: '18601'; 
+  font-weight: normal;
+  font-style: normal;
+  src: url(shrift/18601.otf);
+}
+
+@font-face {
+  font-family: '17860';
+  font-weight: normal;
+  font-style: normal;
+  src: url(shrift/17860.ttf);
+}
+
+@font-face {
+  font-family: '17719';
+  font-weight: normal;
+  font-style: normal;
+  src: url(shrift/17719.ttf);
+}
+
+@font-face {
+  font-family: '17607';
+  font-weight: normal;
+  font-style: normal;
+  src: url(shrift/17607.otf);
+}
+
+
+  h1{
+    text-align:center;
+      font-size: 100px;
+      font-family: '18601'; 
+      color:white;
+
+  }
+
+  .form-group {
+    text-align:center;
+    font-size: 50px;
+    color: white;
+    
+  }
+  .form-group label{
+
+     display: block;
+  }
+
+  .tach{
+    text-align:center;
+  }
+  .tach2{
+    text-align:center;
+    font-size: 50px;
+    font-family: 'Art-Nouveau-1900';
+    background-color:whitesmoke ;
+    width: 200px;
+  }
+  .ta{
+      text-align: center;
+      width: 400px;
+      height:50px;
+      border-radius: 5px;
+  }
+  .massage {
+    
+    float: right;
+    width: 33%;
+    }
+
+    p{
+        text-align: center;
+        color:white;
+        font-size: 20px;
+        font-family: '17719';
+    }
+    .back{
+        
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 15px;
+    }
+    .em{
+      font-family: '17719';
+    }

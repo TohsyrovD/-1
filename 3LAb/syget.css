@@ -1,0 +1,58 @@
+@font-face {
+    font-family: '18601';
+    font-weight: normal;
+    font-style: normal;
+    src: url(shrift/18601.otf);
+  }
+  @font-face {
+    font-family: '17860';
+    font-weight: normal;
+    font-style: normal;
+    src: url(shrift/17860.ttf);
+  }
+  
+
+
+
+  @font-face {
+    font-family: '17719';
+    font-weight: normal;
+    font-style: normal;
+    src: url(shrift/17719.ttf);
+  }
+
+  @font-face {
+    font-family: '17607';
+    font-weight: normal;
+    font-style: normal;
+    src: url(shrift/17607.otf);
+  }
+  
+  .back{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 15px;
+    font-family: '18601';
+}
+
+h1{
+    font-family: '18601';
+    font-size: 100px;
+    text-align: center;
+    color: whitesmoke;
+}
+.te{
+    padding: 0px 200px 0px 200px;
+}
+
+.text{
+    
+    font-size:20px;
+    font-family: '17607';
+    color: whitesmoke;
+    background-color: rgba(0, 50, 50, 0.5);
+}
+
