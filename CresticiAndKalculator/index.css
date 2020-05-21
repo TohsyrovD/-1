@@ -1,0 +1,39 @@
+.flex {
+    display: flex;
+    justify-content: center;
+
+    background: #c8dfff;
+    padding: 5px;
+}
+
+.item1 {
+    background: #5E1DA7;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 15px;
+    padding: 40px 120px;
+}
+
+.item2 {
+    background: #5E1DA7;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 15px;
+    padding: 40px 150px;
+}
+
+
+h1{
+    text-align: center;
+    color:#5E1DA7;
+    font-size: 60px;
+}
+.back {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff ;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 15px;
+       
+    }
