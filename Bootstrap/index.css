@@ -1,0 +1,152 @@
+
+
+
+
+
+@media  (max-width: 700px) {
+    .in{ width: 600px ;}
+
+ }
+   
+ @media  (min-width: 375px) {
+     .in{ width: 100%;  }
+     
+  }
+       
+@media  (max-width: 320px) {
+    .in{ width: 100%;  }
+    .tex{height: 500px;}
+            
+ }
+
+ @media  (min-width: 200px) { 
+.fott{
+    background-image: url('foto/m_tel_2 (1).jpg');
+      text-align: center;
+      height: 400px; 
+      border: 2px solid rgba(26, 116, 219, 0.5) ;
+}
+ }
+
+
+ @media  (min-width: 400px) { 
+   .fott{
+
+    background-image: url('foto/m_tel_2.jpg');
+    text-align: center;
+    height: 400px; 
+    border: 2px solid rgba(26, 116, 219, 0.5) ;
+   }
+
+ }
+
+ 
+ @media  (min-width: 900px) { 
+    .fott{
+ 
+     background-image: url('foto/m_tel_2.jpg');
+     text-align: center;
+     height: 400px; 
+     border: 2px solid rgba(26, 116, 219, 0.5) ;
+    }
+ 
+  }
+
+
+
+
+
+@media  (min-width: 200px) { 
+  .fot1{
+    background-image: url('foto/m_tel_1 (1).jpg');
+    background-repeat: no-repeat;
+      text-align: center;
+      height: 400px; 
+      border: 2px solid rgba(41, 134, 240, 0.5)  ;
+     }
+ }
+
+
+
+
+ @media  (min-width: 400px) { 
+   .fot1{
+
+    background-image: url('foto/m_tel_1.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px; 
+    border: 2px solid rgba(41, 134, 240, 0.5) ;
+   }
+
+ }
+
+
+
+ 
+ @media  (min-width: 993px) { 
+    .fot1{
+ 
+     background-image: url('foto/m_tel_1 (1).jpg');
+     background-repeat: no-repeat;
+     text-align: center;
+      
+     border: 2px solid rgba(41, 134, 240, 0.5) ;
+    }
+ 
+  }
+
+
+  @media  (min-width: 1350px) { 
+    .fot1{
+ 
+     background-image: url('foto/m_tel_1 (4).jpg');
+     background-repeat: no-repeat;
+     text-align: center;
+      
+     border: 2px solid rgba(41, 134, 240, 0.5) ;
+    }
+ 
+  }
+
+
+
+
+
+  
+  
+  
+  
+     .fot2{
+
+      background-repeat: no-repeat;
+      text-align: center;
+      height: 400px; 
+      border: 10px solid rgba(99, 172, 255, 0.5) ; 
+      background-color: white;
+      
+     }
+  
+
+
+
+
+  
+     @media  (min-width: 448px){
+          .textts{
+            font-family: 'Ginza_Narrow_Heavy';
+            font-size: 12px;
+          }
+     }
+  
+   
+   @media  (min-width: 300px){
+      .textts{
+            font-family: 'Ginza_Narrow_Heavy';
+            font-size: 13px;
+          }
+
+   }
+
+
+   
