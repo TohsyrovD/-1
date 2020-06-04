@@ -1,87 +1,85 @@
 
-    .btn {
-        width: 120px;
-        height: 120px;
-        background: #5E1DA7;
-        display: inline-block;
-        text-align: center;
-        line-height: 60px;
-        user-select: none;
-        color: #c8dfff;
-        font-size: 32px;
-        
-    }
-    .new{
-        display: inline-block;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: white;
-        font-size: 40px;
-        font-weight: bold;
-        margin-right: 15px;
-        background-color: #5E1DA7;
-        
-        border-radius: 5px;
-        
-    }
     
- 
-    .btn:hover {
-        background: #c8dfff;
-        color: #5E1DA7;
-        
-        
-    }
- 
-    #calc-wrap {
-        padding: 20px;
-        width: 97%;
-        text-align: center;
-        background: white;
-       border-radius: 20px;
-        border: 2px solid black;
-    }
- 
-    #calc {
-        width: 480px;
-        display: inline-block;
-        border-radius: 5px;
-        border: 2px solid black;
-    }
- 
-    #inputVal {
-        width: 99%;
-        border: 0;
-        font-size: 25px;
-        resize: vertical;
-        background: #c8dfff;
-    }
+h1{
+    text-align: center;
+}
 
-
-    .h1{
-        font-size: 32px;
-        padding-left: 600px;
-        
-    }
-    footer{
-        background-color: #c8dfff;
-        margin-top: 30px;
-    }
-
-     footer p{
-         
-         font-size: 20px;
-         color:#5E1DA7;
-         text-align: center;
-     }
-
-     .back {
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #5E1DA7;
-        font-size: 20px;
-        font-weight: bold;
-        margin-right: 15px;
-        border: 2px solid white;
+        html, body, main {
+            height: 100%;
         }
-    
+        
+        .calc {
+            display: flex;
+            width: 478px;
+            height: 500x;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+            border: 4px solid black;
+            
+        }
+        
+        .ecr{
+            background-color: black;
+            font-size: 50px;
+            
+            width: 478px;
+            padding-top: 20px;
+            text-align: right;
+           
+            
+        }
+        .sp {
+            margin: 35px;
+            color: white;
+        }
+        
+        .buttons {
+            display: flex;
+            margin: auto;
+            
+        }
+        
+        .numbers {
+            display: flex;
+            flex-direction: inherit;
+            flex-wrap: wrap;
+            
+            width: 60%;
+            
+        }
+        
+        .sign {
+            font-size: 45px;
+            
+            
+            
+            width: 95px;
+            height: 95px;
+            background-color: rgb(156, 156, 156);
+            
+            
+        }
+        
+        .functions, .symbols, .res, .toch, .number {
+            width: 95px;
+        }
+        
+        .other {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+           
+            width: 40%;
+           
+        }
+
+        .foot{
+            text-align: center;
+            background-color: black;
+            color: white;
+        }

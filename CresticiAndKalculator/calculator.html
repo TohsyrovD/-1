@@ -4,82 +4,56 @@
 <meta charset = "UTF-8"> 
 <link href = "calculator.css" rel = "stylesheet"> 
 <style>
-    body { background-color: #c8dfff;  background-size: cover; background-repeat: no-repeat; background-attachment: fixed;} 
+    body { background-color: white;  background-size: cover; background-repeat: no-repeat; background-attachment: fixed;} 
     </style>
-</head> 
-<body> 
-<main> 
-<div id="calc-wrap">
-    <div id="calc">
-        <textarea id=inputVal>0</textarea>
-    </div>
-</div>
-<div>
-    <p><a class="new" href="calculator.html">Обновить</a></p>
-   </div>
-<script>
-    // код начнёт выполняться после загрузки страницы
-    // когда окно загрузится, сработает метод window.onLoad
-    window.addEventListener('load', function OnWindowLoaded() {
-        // набор кнопок
-        var signs = [
-            '1', '2', '3', '+',
-            '4', '5', '6', '-',
-            '7', '8', '9', '/',
-            '0', 'c', '.', '='
-        ];
-     
-        // форма калькулятора
-        var calc = document.getElementById('calc');
-     
-        // текстовое поле с математическим выражением
-        var textArea = document.getElementById('inputVal');
-     
-        // Добавление кнопок к форме калькулятора
-        signs.forEach(function (sign) {
-            var signElement = document.createElement('div');
-            signElement.className = 'btn';
-            signElement.innerHTML = sign;
-            calc.appendChild(signElement);
-        });
-     
-        // проходит по всем кнопкам калькулятора
-        // добавляет обработчик на клик
-        document.querySelectorAll('#calc-wrap .btn').forEach(function (button) {
-            // Добавляем действие, выполняемое при клике на любую кнопку
-            button.addEventListener('click', onButtonClick);
-        });
-     
-        // функция клика по кнопке калькулятора
-        function onButtonClick(e) {
-            // e - MouseEvent (содержит информацию о клике)
-            if (e.target.innerHTML === 'c') {
-                // Если нажата кнопка "с", то стирает все из текстового поля
-                textArea.innerHTML = '0';
-            } else if (e.target.innerHTML === '=') {
-                // Если нажата кнопка "=", то, приведя выражение
-                // в текстовом поле к javascript, вычислить значение
-                textArea.innerHTML = eval(textArea.innerHTML);
-            } else if (textArea.innerHTML === '0') {
-                // Если textarea содержит только "0", то
-                // стереть "0" и записать
-                // значения кнопки в текстовое поле
-                textArea.innerHTML = e.target.innerHTML;
-            } else {
-                // Добавление значения кнопки в текстовое поле
-                textArea.innerHTML += e.target.innerHTML;
-            }
-        }
-        
-    });
-    </script>
 
-     <a class="back"  href="/index.html">На главную</a>
-</main> 
+    <script src="/calk.js" defer></script>
+</head> 
+<body>
+    <button style="background-color: black;"><a style="color:white" href="/index.html">На главную</a></button> 
+    <h1 >Калькулятор</h1>
+    <main>
+        <div class="calc" id="calc">
+            <div class="ecr">
+                <span class="sp" id="screen"></span>
+            </div>
+            <div class="buttons">
+                <div class="numbers">
+                    <button class="sign number">1</button>
+                    <button class="sign number">2</button>
+                    <button class="sign number">3</button>
+                    <button class="sign number">4</button>
+                    <button class="sign number">5</button>
+                    <button class="sign number">6</button>
+                    <button class="sign number">7</button>
+                    <button class="sign number">8</button>
+                    <button class="sign number">9</button>
+                    <button class="sign number">0</button>
+                    <button class="sign number">C</button>
+                    <button class="sign" style="visibility: hidden;"></button>
+                </div>
+                <div class="other">
+                    <button class="sign functions">+</button>
+                    <button class="sign functions">-</button>
+                    <button class="sign functions">*</button>
+                    <button class="sign functions">/</button>
+                    <button class="sign symbols">(</button>
+                    <button class="sign symbols">)</button>
+                    <button class="sign res">=</button>
+                    <button class="sign toch">.</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    
 <footer>
-    <p>Возникли проблемы ?</p>
+    <div class="foot">
+    <h2>Возникли проблемы ?</h2>
     <p>Обратитесь к разработчику:</p>
     <p class="email">tohsyrov2014@yandex.ru</p>
+</div>
 </footer> 
 </body> 
 </html>
