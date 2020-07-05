@@ -150,3 +150,82 @@
 
 
    
+
+   .cl129{
+    border: 2px solid rgba(122, 182, 250, 0.5); background-color: rgba(26, 116, 219, 0.5); 
+
+
+   }
+
+  .cll121{
+    background-color: rgba(26, 116, 219, 0.5); color: white;
+
+  }
+  .cll122{
+    background-color: rgba(23, 16, 49, 0.5); color: white;
+    
+  }
+  .cll123{
+    background-color: rgba(113, 61, 233, 0.5); color: white;
+    
+  }
+  .cll124{
+    background-color: rgba(89, 99, 190, 0.5); color: white;
+    
+  }
+
+  .cl94{
+    background-color: rgba(26, 116, 219, 0.5);
+
+  }
+
+  .cl99{
+
+    background-color:rgba(140, 192, 252, 0.5);; text-align: center; color: rgba(26, 116, 219, 0.5);
+  }
+
+  .cl62 li{
+    background-color: rgba(26, 116, 219, 0.5);
+  }
+
+  .ul1{
+    text-align: center; padding-top: 80px; color: white;
+
+  }
+  .ul2{
+    text-align: center; padding-left: 10px ; padding-top: 50px; color: white; 
+    
+  }
+  .ul3{
+
+    text-align: center;padding-left: 10px ; padding-top: 60px; color: white;
+  }
+
+
+  .cl43{
+    height: 400px;background-color: slategrey;background-image: url('/foto/h1_5.jpg'); background-size: cover; background-repeat: no-repeat;
+
+  }
+
+  .cl54{
+    text-align: center;color: skyblue ; background-color: rgba(0, 50, 50, 0.5);
+
+  }
+
+  .cl59{
+
+    background-color:rgba(140, 192, 252, 0.5);text-align: center;
+  }
+
+  .h159{
+    color: rgba(26, 116, 219, 0.5);
+  }
+
+  .clKont{
+    text-align: center;
+  }
+
+  footer{
+    border-top: 2px solid black;
+    text-align: center; 
+  }
